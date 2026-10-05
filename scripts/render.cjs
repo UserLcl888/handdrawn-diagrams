@@ -84,14 +84,18 @@ async function main(){
   try{playwright=options['modules-dir']?require(path.join(path.resolve(options['modules-dir']),'playwright')):require('playwright');}
   catch{throw Error('Playwright not found. Pass --modules-dir with the existing runtime node_modules directory.');}
   const explicit=options['browser-executable']||process.env.HANDDRAWN_BROWSER;
-  const candidates=explicit?[explicit]:[playwright.chromium.executablePath(),'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome','/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge','/usr/bin/chromium','/usr/bin/chromium-browser','/usr/bin/google-chrome'];
-  const executablePath=candidates.find(p=>fs.existsSync(p));
-  if(!executablePath)throw Error('Chromium not found. Pass --browser-executable.');
+  const candidates=(explicit?[explicit]:[playwright.chromium.executablePath(),'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome','/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge','/usr/bin/chromium','/usr/bin/chromium-browser','/usr/bin/google-chrome','C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe','C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe','C:\\Program Files\\Microsoft\\Edge\\Application\\msedge.exe','C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe']).filter(p=>fs.existsSync(p));
+  if(!candidates.length)throw Error('Chromium not found. Pass --browser-executable.');
   const temp=fs.mkdtempSync(path.join(os.tmpdir(),'handdrawn-diagram-'));
   let browser;
   try{
     const pagePath=path.join(temp,'scene.html');fs.writeFileSync(pagePath,html);
-    browser=await playwright.chromium.launch({executablePath,headless:true});
+    let launchError;
+    for(const candidate of candidates){
+      try{browser=await playwright.chromium.launch({executablePath:candidate,headless:true});break;}
+      catch(error){launchError=error;}
+    }
+    if(!browser)throw launchError;
     const page=await browser.newPage({viewport:{width:W,height:H},deviceScaleFactor:scale});
     await page.route(/^https?:\/\//,r=>r.abort());
     await page.goto(pathToFileURL(pagePath).href);
