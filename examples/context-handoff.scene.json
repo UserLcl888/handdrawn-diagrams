@@ -1,0 +1,1065 @@
+{
+  "width": 1800,
+  "height": 1120,
+  "seed": 77123,
+  "elements": [
+    {
+      "type": "text",
+      "x": 78,
+      "y": 72,
+      "text": "Codex 的无摘要换窗",
+      "size": 53,
+      "color": "#252525",
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "x": 80,
+      "y": 135,
+      "text": "保存进度，换个窗口，按需找回",
+      "size": 29,
+      "color": "#646464",
+      "align": "left"
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          78,
+          106
+        ],
+        [
+          576,
+          108
+        ]
+      ],
+      "stroke": "#ffd35c",
+      "strokeWidth": 4,
+      "dashed": false
+    },
+    {
+      "type": "rect",
+      "x": 80,
+      "y": 238,
+      "width": 470,
+      "height": 345,
+      "fill": "#fff0b3",
+      "stroke": "#252525",
+      "radius": 28,
+      "strokeWidth": 2.2
+    },
+    {
+      "type": "text",
+      "x": 108,
+      "y": 279,
+      "text": "01",
+      "size": 27,
+      "color": "#646464",
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "x": 164,
+      "y": 279,
+      "text": "保存进度",
+      "size": 36,
+      "color": "#252525",
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "x": 512,
+      "y": 279,
+      "text": "模型",
+      "size": 24,
+      "color": "#646464",
+      "align": "right"
+    },
+    {
+      "type": "rect",
+      "x": 665,
+      "y": 238,
+      "width": 470,
+      "height": 345,
+      "fill": "#ffcccc",
+      "stroke": "#252525",
+      "radius": 28,
+      "strokeWidth": 2.2
+    },
+    {
+      "type": "text",
+      "x": 693,
+      "y": 279,
+      "text": "02",
+      "size": 27,
+      "color": "#646464",
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "x": 749,
+      "y": 279,
+      "text": "无摘要换窗",
+      "size": 36,
+      "color": "#252525",
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "x": 1097,
+      "y": 279,
+      "text": "运行时",
+      "size": 24,
+      "color": "#646464",
+      "align": "right"
+    },
+    {
+      "type": "rect",
+      "x": 1250,
+      "y": 238,
+      "width": 470,
+      "height": 345,
+      "fill": "#d3f4d3",
+      "stroke": "#252525",
+      "radius": 28,
+      "strokeWidth": 2.2
+    },
+    {
+      "type": "text",
+      "x": 1278,
+      "y": 279,
+      "text": "03",
+      "size": 27,
+      "color": "#646464",
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "x": 1334,
+      "y": 279,
+      "text": "按需恢复",
+      "size": 36,
+      "color": "#252525",
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "x": 1682,
+      "y": 279,
+      "text": "模型",
+      "size": 24,
+      "color": "#646464",
+      "align": "right"
+    },
+    {
+      "type": "arrow",
+      "points": [
+        [
+          559,
+          416
+        ],
+        [
+          652,
+          417
+        ]
+      ],
+      "stroke": "#252525",
+      "strokeWidth": 2.5,
+      "dashed": false,
+      "headSize": 13
+    },
+    {
+      "type": "arrow",
+      "points": [
+        [
+          1147,
+          416
+        ],
+        [
+          1236,
+          417
+        ]
+      ],
+      "stroke": "#252525",
+      "strokeWidth": 2.5,
+      "dashed": false,
+      "headSize": 13
+    },
+    {
+      "type": "rect",
+      "x": 187,
+      "y": 344,
+      "width": 200,
+      "height": 114,
+      "fill": "#fff9de",
+      "stroke": "#252525",
+      "radius": 12,
+      "strokeWidth": 1.8
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          188,
+          368
+        ],
+        [
+          386,
+          368
+        ]
+      ],
+      "stroke": "#252525",
+      "strokeWidth": 1.5,
+      "dashed": false
+    },
+    {
+      "type": "ellipse",
+      "x": 199,
+      "y": 354,
+      "width": 4,
+      "height": 4,
+      "fill": "#252525",
+      "stroke": "#252525",
+      "strokeWidth": 1,
+      "roughness": 0.4
+    },
+    {
+      "type": "ellipse",
+      "x": 212,
+      "y": 354,
+      "width": 4,
+      "height": 4,
+      "fill": "#252525",
+      "stroke": "#252525",
+      "strokeWidth": 1,
+      "roughness": 0.4
+    },
+    {
+      "type": "ellipse",
+      "x": 225,
+      "y": 354,
+      "width": 4,
+      "height": 4,
+      "fill": "#252525",
+      "stroke": "#252525",
+      "strokeWidth": 1,
+      "roughness": 0.4
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          211,
+          386
+        ],
+        [
+          353,
+          387
+        ]
+      ],
+      "stroke": "#88816e",
+      "strokeWidth": 2,
+      "dashed": false
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          211,
+          409
+        ],
+        [
+          322,
+          411
+        ]
+      ],
+      "stroke": "#88816e",
+      "strokeWidth": 2,
+      "dashed": false
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          211,
+          434
+        ],
+        [
+          347,
+          432
+        ]
+      ],
+      "stroke": "#88816e",
+      "strokeWidth": 2,
+      "dashed": false
+    },
+    {
+      "type": "rect",
+      "x": 351,
+      "y": 393,
+      "width": 73,
+      "height": 88,
+      "fill": "#fff5c9",
+      "stroke": "#252525",
+      "radius": 9,
+      "strokeWidth": 1.8
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          365,
+          415
+        ],
+        [
+          408,
+          416
+        ]
+      ],
+      "stroke": "#252525",
+      "strokeWidth": 1.6,
+      "dashed": false
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          365,
+          437
+        ],
+        [
+          408,
+          438
+        ]
+      ],
+      "stroke": "#252525",
+      "strokeWidth": 1.6,
+      "dashed": false
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          365,
+          458
+        ],
+        [
+          408,
+          459
+        ]
+      ],
+      "stroke": "#252525",
+      "strokeWidth": 1.6,
+      "dashed": false
+    },
+    {
+      "type": "text",
+      "x": 315,
+      "y": 524,
+      "text": "把工作状态写入 Notes",
+      "size": 28,
+      "color": "#252525",
+      "align": "center"
+    },
+    {
+      "type": "rect",
+      "x": 739,
+      "y": 348,
+      "width": 124,
+      "height": 103,
+      "fill": "#fff2f2",
+      "stroke": "#858080",
+      "radius": 12,
+      "strokeWidth": 1.8
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          740,
+          372
+        ],
+        [
+          862,
+          372
+        ]
+      ],
+      "stroke": "#858080",
+      "strokeWidth": 1.5,
+      "dashed": false
+    },
+    {
+      "type": "ellipse",
+      "x": 751,
+      "y": 358,
+      "width": 4,
+      "height": 4,
+      "fill": "#858080",
+      "stroke": "#858080",
+      "strokeWidth": 1,
+      "roughness": 0.4
+    },
+    {
+      "type": "ellipse",
+      "x": 764,
+      "y": 358,
+      "width": 4,
+      "height": 4,
+      "fill": "#858080",
+      "stroke": "#858080",
+      "strokeWidth": 1,
+      "roughness": 0.4
+    },
+    {
+      "type": "ellipse",
+      "x": 777,
+      "y": 358,
+      "width": 4,
+      "height": 4,
+      "fill": "#858080",
+      "stroke": "#858080",
+      "strokeWidth": 1,
+      "roughness": 0.4
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          758,
+          388
+        ],
+        [
+          843,
+          388
+        ]
+      ],
+      "stroke": "#b2a7a7",
+      "strokeWidth": 1.8,
+      "dashed": false
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          758,
+          412
+        ],
+        [
+          843,
+          412
+        ]
+      ],
+      "stroke": "#b2a7a7",
+      "strokeWidth": 1.8,
+      "dashed": false
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          758,
+          435
+        ],
+        [
+          843,
+          435
+        ]
+      ],
+      "stroke": "#b2a7a7",
+      "strokeWidth": 1.8,
+      "dashed": false
+    },
+    {
+      "type": "arrow",
+      "points": [
+        [
+          882,
+          404
+        ],
+        [
+          925,
+          404
+        ]
+      ],
+      "stroke": "#252525",
+      "strokeWidth": 2,
+      "dashed": false,
+      "headSize": 10
+    },
+    {
+      "type": "rect",
+      "x": 945,
+      "y": 348,
+      "width": 124,
+      "height": 103,
+      "fill": "#fff6f6",
+      "stroke": "#252525",
+      "radius": 12,
+      "strokeWidth": 1.8
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          946,
+          372
+        ],
+        [
+          1068,
+          372
+        ]
+      ],
+      "stroke": "#252525",
+      "strokeWidth": 1.5,
+      "dashed": false
+    },
+    {
+      "type": "ellipse",
+      "x": 957,
+      "y": 358,
+      "width": 4,
+      "height": 4,
+      "fill": "#252525",
+      "stroke": "#252525",
+      "strokeWidth": 1,
+      "roughness": 0.4
+    },
+    {
+      "type": "ellipse",
+      "x": 970,
+      "y": 358,
+      "width": 4,
+      "height": 4,
+      "fill": "#252525",
+      "stroke": "#252525",
+      "strokeWidth": 1,
+      "roughness": 0.4
+    },
+    {
+      "type": "ellipse",
+      "x": 983,
+      "y": 358,
+      "width": 4,
+      "height": 4,
+      "fill": "#252525",
+      "stroke": "#252525",
+      "strokeWidth": 1,
+      "roughness": 0.4
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          964,
+          389
+        ],
+        [
+          1050,
+          390
+        ]
+      ],
+      "stroke": "#746168",
+      "strokeWidth": 3,
+      "dashed": false
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          964,
+          413
+        ],
+        [
+          1026,
+          414
+        ]
+      ],
+      "stroke": "#746168",
+      "strokeWidth": 2,
+      "dashed": false
+    },
+    {
+      "type": "text",
+      "x": 900,
+      "y": 511,
+      "text": "重新加载规则与环境",
+      "size": 28,
+      "color": "#252525",
+      "align": "center"
+    },
+    {
+      "type": "text",
+      "x": 900,
+      "y": 553,
+      "text": "不额外生成摘要",
+      "size": 25,
+      "color": "#7c575e",
+      "align": "center"
+    },
+    {
+      "type": "rect",
+      "x": 1370,
+      "y": 344,
+      "width": 200,
+      "height": 114,
+      "fill": "#f6fff3",
+      "stroke": "#252525",
+      "radius": 12,
+      "strokeWidth": 1.8
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          1371,
+          368
+        ],
+        [
+          1569,
+          368
+        ]
+      ],
+      "stroke": "#252525",
+      "strokeWidth": 1.5,
+      "dashed": false
+    },
+    {
+      "type": "ellipse",
+      "x": 1382,
+      "y": 354,
+      "width": 4,
+      "height": 4,
+      "fill": "#252525",
+      "stroke": "#252525",
+      "strokeWidth": 1,
+      "roughness": 0.4
+    },
+    {
+      "type": "ellipse",
+      "x": 1395,
+      "y": 354,
+      "width": 4,
+      "height": 4,
+      "fill": "#252525",
+      "stroke": "#252525",
+      "strokeWidth": 1,
+      "roughness": 0.4
+    },
+    {
+      "type": "ellipse",
+      "x": 1408,
+      "y": 354,
+      "width": 4,
+      "height": 4,
+      "fill": "#252525",
+      "stroke": "#252525",
+      "strokeWidth": 1,
+      "roughness": 0.4
+    },
+    {
+      "type": "rect",
+      "x": 1391,
+      "y": 385,
+      "width": 70,
+      "height": 46,
+      "fill": "#fff0b3",
+      "stroke": "#252525",
+      "radius": 7,
+      "strokeWidth": 1.5
+    },
+    {
+      "type": "rect",
+      "x": 1476,
+      "y": 385,
+      "width": 71,
+      "height": 46,
+      "fill": "#daeffd",
+      "stroke": "#252525",
+      "radius": 7,
+      "strokeWidth": 1.5
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          1404,
+          399
+        ],
+        [
+          1445,
+          399
+        ]
+      ],
+      "stroke": "#252525",
+      "strokeWidth": 1.6,
+      "dashed": false
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          1404,
+          414
+        ],
+        [
+          1431,
+          414
+        ]
+      ],
+      "stroke": "#252525",
+      "strokeWidth": 1.6,
+      "dashed": false
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          1489,
+          399
+        ],
+        [
+          1530,
+          399
+        ]
+      ],
+      "stroke": "#252525",
+      "strokeWidth": 1.6,
+      "dashed": false
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          1489,
+          414
+        ],
+        [
+          1516,
+          414
+        ]
+      ],
+      "stroke": "#252525",
+      "strokeWidth": 1.6,
+      "dashed": false
+    },
+    {
+      "type": "text",
+      "x": 1485,
+      "y": 510,
+      "text": "读回所需内容",
+      "size": 28,
+      "color": "#252525",
+      "align": "center"
+    },
+    {
+      "type": "text",
+      "x": 1485,
+      "y": 552,
+      "text": "继续任务",
+      "size": 26,
+      "color": "#337969",
+      "align": "center"
+    },
+    {
+      "type": "rect",
+      "x": 585,
+      "y": 757,
+      "width": 1110,
+      "height": 260,
+      "fill": "#fafafa",
+      "stroke": "#999999",
+      "radius": 24,
+      "strokeWidth": 1.2
+    },
+    {
+      "type": "text",
+      "x": 618,
+      "y": 789,
+      "text": "窗口外",
+      "size": 23,
+      "color": "#646464",
+      "align": "left"
+    },
+    {
+      "type": "rect",
+      "x": 620,
+      "y": 827,
+      "width": 460,
+      "height": 151,
+      "fill": "#fff5cd",
+      "stroke": "#252525",
+      "radius": 22,
+      "strokeWidth": 1.8
+    },
+    {
+      "type": "rect",
+      "x": 1155,
+      "y": 827,
+      "width": 500,
+      "height": 151,
+      "fill": "#e5f4ff",
+      "stroke": "#252525",
+      "radius": 22,
+      "strokeWidth": 1.8
+    },
+    {
+      "type": "rect",
+      "x": 653,
+      "y": 869,
+      "width": 43,
+      "height": 55,
+      "fill": "#fffaf0",
+      "stroke": "#252525",
+      "radius": 7,
+      "strokeWidth": 1.5
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          664,
+          884
+        ],
+        [
+          686,
+          885
+        ]
+      ],
+      "stroke": "#252525",
+      "strokeWidth": 1.5,
+      "dashed": false
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          664,
+          898
+        ],
+        [
+          686,
+          899
+        ]
+      ],
+      "stroke": "#252525",
+      "strokeWidth": 1.5,
+      "dashed": false
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          664,
+          912
+        ],
+        [
+          686,
+          913
+        ]
+      ],
+      "stroke": "#252525",
+      "strokeWidth": 1.5,
+      "dashed": false
+    },
+    {
+      "type": "text",
+      "x": 724,
+      "y": 866,
+      "text": "Notes",
+      "size": 37,
+      "color": "#252525",
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "x": 724,
+      "y": 925,
+      "text": "目标 · 约束 · 下一步",
+      "size": 26,
+      "color": "#646464",
+      "align": "left"
+    },
+    {
+      "type": "rect",
+      "x": 1201,
+      "y": 872,
+      "width": 40,
+      "height": 47,
+      "fill": "#f3faff",
+      "stroke": "#252525",
+      "radius": 6,
+      "strokeWidth": 1.4
+    },
+    {
+      "type": "rect",
+      "x": 1195,
+      "y": 866,
+      "width": 40,
+      "height": 47,
+      "fill": "#f3faff",
+      "stroke": "#252525",
+      "radius": 6,
+      "strokeWidth": 1.4
+    },
+    {
+      "type": "rect",
+      "x": 1189,
+      "y": 860,
+      "width": 40,
+      "height": 47,
+      "fill": "#f3faff",
+      "stroke": "#252525",
+      "radius": 6,
+      "strokeWidth": 1.4
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          1199,
+          878
+        ],
+        [
+          1219,
+          878
+        ]
+      ],
+      "stroke": "#252525",
+      "strokeWidth": 1.4,
+      "dashed": false
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          1199,
+          891
+        ],
+        [
+          1219,
+          891
+        ]
+      ],
+      "stroke": "#252525",
+      "strokeWidth": 1.4,
+      "dashed": false
+    },
+    {
+      "type": "text",
+      "x": 1260,
+      "y": 866,
+      "text": "History",
+      "size": 37,
+      "color": "#252525",
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "x": 1260,
+      "y": 925,
+      "text": "对话 · 报错 · 工具结果",
+      "size": 26,
+      "color": "#646464",
+      "align": "left"
+    },
+    {
+      "type": "arrow",
+      "points": [
+        [
+          315,
+          589
+        ],
+        [
+          315,
+          902
+        ],
+        [
+          607,
+          902
+        ]
+      ],
+      "stroke": "#3c6f9f",
+      "strokeWidth": 2,
+      "dashed": true,
+      "headSize": 13
+    },
+    {
+      "type": "text",
+      "x": 365,
+      "y": 864,
+      "text": "写笔记",
+      "size": 26,
+      "color": "#3c6f9f",
+      "align": "left"
+    },
+    {
+      "type": "arrow",
+      "points": [
+        [
+          1000,
+          820
+        ],
+        [
+          1000,
+          682
+        ],
+        [
+          1385,
+          682
+        ],
+        [
+          1385,
+          595
+        ]
+      ],
+      "stroke": "#3c6f9f",
+      "strokeWidth": 2,
+      "dashed": true,
+      "headSize": 13
+    },
+    {
+      "type": "text",
+      "x": 1100,
+      "y": 652,
+      "text": "读笔记",
+      "size": 26,
+      "color": "#3c6f9f",
+      "align": "left"
+    },
+    {
+      "type": "arrow",
+      "points": [
+        [
+          1545,
+          820
+        ],
+        [
+          1545,
+          595
+        ]
+      ],
+      "stroke": "#337969",
+      "strokeWidth": 2,
+      "dashed": true,
+      "headSize": 13
+    },
+    {
+      "type": "text",
+      "x": 1570,
+      "y": 722,
+      "text": "查历史",
+      "size": 26,
+      "color": "#337969",
+      "align": "left"
+    },
+    {
+      "type": "text",
+      "x": 80,
+      "y": 1073,
+      "text": "记笔记与回查需模型实际执行，非每次自动完成。",
+      "size": 25,
+      "color": "#646464",
+      "align": "left"
+    }
+  ]
+}

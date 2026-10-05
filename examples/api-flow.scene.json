@@ -1,0 +1,26 @@
+{
+  "width": 1460,
+  "height": 760,
+  "background": "#ffffff",
+  "seed": 92317,
+  "elements": [
+    {"type":"text","id":"title","x":64,"y":80,"text":"请求先校验，再查询","size":50,"maxWidth":1320},
+    {"type":"line","points":[[65,123],[550,123]],"stroke":"#ffd35c","strokeWidth":4},
+    {"type":"rect","id":"request","x":65,"y":250,"width":240,"height":150,"radius":22,"fill":"#e5f4ff"},
+    {"type":"text","x":185,"y":325,"text":"用户请求","size":36,"align":"center","maxWidth":210},
+    {"type":"arrow","points":[[319,325],[399,325]],"strokeWidth":2.4},
+    {"type":"rect","id":"validate","x":415,"y":250,"width":240,"height":150,"radius":22,"fill":"#fff0b3"},
+    {"type":"text","x":535,"y":325,"text":"API 校验","size":36,"align":"center","maxWidth":210},
+    {"type":"arrow","points":[[668,325],[748,325]],"strokeWidth":2.4},
+    {"type":"text","x":707,"y":287,"text":"通过","size":26,"align":"center","color":"#646464"},
+    {"type":"rect","id":"query","x":765,"y":250,"width":240,"height":150,"radius":22,"fill":"#e5f4ff"},
+    {"type":"text","x":885,"y":325,"text":"数据库查询","size":35,"align":"center","maxWidth":215},
+    {"type":"arrow","points":[[1019,325],[1099,325]],"strokeWidth":2.4},
+    {"type":"rect","id":"result","x":1115,"y":250,"width":280,"height":150,"radius":22,"fill":"#d3f4d3"},
+    {"type":"text","x":1255,"y":325,"text":"返回结果","size":36,"align":"center","maxWidth":240},
+    {"type":"arrow","points":[[535,414],[535,528]],"strokeWidth":2.2},
+    {"type":"text","x":577,"y":472,"text":"失败","size":26,"color":"#646464"},
+    {"type":"rect","id":"error","x":415,"y":545,"width":240,"height":115,"radius":22,"fill":"#ffcccc"},
+    {"type":"text","x":535,"y":601,"text":"返回错误","size":33,"align":"center","maxWidth":205}
+  ]
+}

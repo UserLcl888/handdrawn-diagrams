@@ -1,0 +1,27 @@
+{
+  "name": "handdrawn-diagrams",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Codex skill and local renderer for Chinese handdrawn technical diagrams.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lishuangqiang/handdrawn-diagrams.git"
+  },
+  "homepage": "https://github.com/lishuangqiang/handdrawn-diagrams#readme",
+  "bugs": {
+    "url": "https://github.com/lishuangqiang/handdrawn-diagrams/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "render": "node scripts/render.cjs",
+    "example": "node scripts/render.cjs assets/example.scene.json --output output/cache-flow.png --overwrite",
+    "brand": "node scripts/build-brand.cjs",
+    "gallery": "node scripts/build-gallery.cjs"
+  },
+  "dependencies": {
+    "playwright": "1.63.0"
+  }
+}

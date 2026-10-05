@@ -1,0 +1,27 @@
+{
+  "width": 1440,
+  "height": 820,
+  "seed": 77123,
+  "elements": [
+    {"type":"text","id":"title","x":60,"y":65,"text":"缓存如何减少重复读取","size":48,"maxWidth":1300},
+    {"type":"line","points":[[60,104],[570,105]],"stroke":"#ffd35c","strokeWidth":4},
+    {"type":"rect","x":70,"y":235,"width":310,"height":190,"fill":"#fff0b3"},
+    {"type":"text","x":225,"y":297,"text":"查询缓存","size":34,"align":"center","maxWidth":260},
+    {"type":"text","x":225,"y":366,"text":"先找已有结果","size":25,"align":"center","color":"#646464"},
+    {"type":"arrow","points":[[395,325],[540,325]],"strokeWidth":2.4},
+    {"type":"text","x":468,"y":287,"text":"命中","size":25,"align":"center"},
+    {"type":"rect","x":560,"y":235,"width":310,"height":190,"fill":"#d3f4d3"},
+    {"type":"text","x":715,"y":297,"text":"直接返回","size":34,"align":"center","maxWidth":260},
+    {"type":"text","x":715,"y":366,"text":"复用已存结果","size":25,"align":"center","color":"#646464"},
+    {"type":"arrow","points":[[225,436],[225,600],[540,600]],"stroke":"#3c6f9f","dashed":true},
+    {"type":"text","x":294,"y":561,"text":"未命中","size":25,"color":"#3c6f9f"},
+    {"type":"rect","x":560,"y":515,"width":310,"height":170,"fill":"#e5f4ff"},
+    {"type":"text","x":715,"y":573,"text":"读取数据源","size":32,"align":"center","maxWidth":260},
+    {"type":"text","x":715,"y":633,"text":"获取最新结果","size":25,"align":"center","color":"#646464"},
+    {"type":"arrow","points":[[885,600],[1030,600]],"stroke":"#3c6f9f","dashed":true},
+    {"type":"rect","x":1050,"y":515,"width":310,"height":170,"fill":"#ffcccc"},
+    {"type":"text","x":1205,"y":573,"text":"回填并返回","size":32,"align":"center","maxWidth":270},
+    {"type":"text","x":1205,"y":633,"text":"供下次复用","size":25,"align":"center","color":"#646464"},
+    {"type":"text","x":70,"y":755,"text":"实线：命中路径    虚线：未命中路径","size":24,"color":"#646464"}
+  ]
+}

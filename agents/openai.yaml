@@ -1,0 +1,4 @@
+interface:
+  display_name: "手绘机制图"
+  short_description: "用 Excalidraw 手写画风绘制少字、主次清晰的技术流程图和文章配图"
+  default_prompt: "使用 $handdrawn-diagrams，把这段机制说明画成一张文字精简、主次清晰的手绘风格图片。"
