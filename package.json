@@ -5,13 +5,14 @@
   "description": "A Codex skill and local renderer for Chinese handdrawn technical diagrams.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lishuangqiang/handdrawn-diagrams.git"
+    "url": "https://github.com/UserLcl888/handdrawn-diagrams.git"
   },
-  "homepage": "https://github.com/lishuangqiang/handdrawn-diagrams#readme",
+  "homepage": "https://github.com/UserLcl888/handdrawn-diagrams#readme",
   "bugs": {
-    "url": "https://github.com/lishuangqiang/handdrawn-diagrams/issues"
+    "url": "https://github.com/UserLcl888/handdrawn-diagrams/issues"
   },
   "license": "MIT",
+  "author": "UserLcl888",
   "engines": {
     "node": ">=20"
   },

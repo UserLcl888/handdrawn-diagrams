@@ -61,7 +61,7 @@
 需要 **Node.js 20 或更新版本**、npm 和 Chromium 浏览器。先克隆仓库：
 
 ```bash
-git clone https://github.com/lishuangqiang/handdrawn-diagrams.git
+git clone https://github.com/UserLcl888/handdrawn-diagrams.git
 cd handdrawn-diagrams
 ```
 
@@ -97,6 +97,14 @@ if [ -e "$skill_target" ] || [ -L "$skill_target" ]; then
 else
   ln -s "$PWD" "$skill_target"
 fi
+```
+
+Windows 上用目录联接代替符号链接，不必移动仓库本身：
+
+```powershell
+New-Item -ItemType Junction `
+  -Path "$env:USERPROFILE\.codex\skills\handdrawn-diagrams" `
+  -Target "<本仓库的绝对路径>"
 ```
 
 Codex 官方支持扫描符号链接；因此请保留仓库所在位置。具体加载位置见 [Codex skills 文档](https://developers.openai.com/codex/skills/#where-codex-loads-local-skills)。如果没有出现这个技能，重启 Codex 后再试。
@@ -201,7 +209,7 @@ node scripts/render.cjs scene.json --output output/read-flow.png
 
 **支持哪些系统？**
 
-本项目已在 macOS、Node.js 24 和 Chrome 上验证。代码支持使用 Playwright 下载的 Chromium，也提供常见 macOS / Linux 浏览器路径回退；Linux / Windows 尚未完成实机验证。上面的符号链接安装命令适用于 macOS / Linux。
+本项目已在 macOS、Node.js 24 和 Chrome 上验证。代码支持使用 Playwright 下载的 Chromium，也提供常见 macOS / Linux 浏览器路径回退，Windows 上会依次尝试 Playwright 的 Chromium 与系统 Chrome / Edge；Windows 已实机验证渲染可用，Linux 尚未实机验证。上面的符号链接安装命令适用于 macOS / Linux。
 
 **相同场景每次完全一样吗？**
 
